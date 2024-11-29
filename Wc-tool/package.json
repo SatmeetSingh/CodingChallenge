@@ -1,0 +1,21 @@
+{
+  "name": "wc-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cat": "node dist/index.js -l",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.ts'",
+    "watch": "tsc --watch",
+    "prettier": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
